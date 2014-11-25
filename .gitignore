@@ -1,0 +1,21 @@
+# Default symfony proposal.
+
+/web/bundles/
+/app/bootstrap.php.cache
+/app/cache/*
+/app/config/parameters.yml
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/build/
+/vendor/
+/bin/
+/composer.phar
+
+# Added by Xavi.
+
+/app/check.php
+/app/SymfonyRequirements.php
+/doc/generated/
+/tmp/
+/web/css/
