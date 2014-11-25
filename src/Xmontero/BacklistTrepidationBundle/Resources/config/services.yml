@@ -1,0 +1,4 @@
+services:
+#    xmontero_backlist_trepidation.example:
+#        class: Xmontero\BacklistTrepidationBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

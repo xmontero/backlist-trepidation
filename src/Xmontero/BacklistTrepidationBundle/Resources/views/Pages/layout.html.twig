@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Antique Crayon</title>
+        <meta charset="UTF-8">
+        {#
+        {% stylesheets filter="cssrewrite,compass"
+        'bundles/xmonterobacklisttrepidation/css/antique-crayon.scss'
+        %}
+        <link href="{{ asset_url }}" rel="stylesheet" type="text/css" />
+        {% endstylesheets %}
+        #}
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        {% block page %}
+        {% endblock %}
+    </body>
+    <script type="text/javascript">
+        {% block javascripts %}
+        {% endblock %}
+    </script>
+</html>

@@ -1,0 +1,4 @@
+xmontero_backlist_trepidation_index:
+    path:         /
+    defaults:     { _controller: XmonteroBacklistTrepidationBundle:Default:index }
+    requirements: { _method: GET }

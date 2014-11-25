@@ -1,0 +1,4 @@
+xmontero_backlist_trepidation:
+    resource: "@XmonteroBacklistTrepidationBundle/Resources/config/routing.yml"
+    prefix:   /
+
